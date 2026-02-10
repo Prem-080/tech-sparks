@@ -4,6 +4,7 @@ import { Sparkles, ArrowRight, Calendar, MapPin } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 import techEventImg from '../assets/tech_event_img.jpg';
+import imageLinks from '../data/image_links.json';
 
 const FestCard = ({ title, description, date, location, image, link }) => {
   const navigate = useNavigate();
@@ -60,7 +61,7 @@ const FestCard = ({ title, description, date, location, image, link }) => {
   );
 };
 
-import imageLinks from '../data/image_links.json';
+
 
 const Fests = () => {
   const getFestImage = (id, fallback) => {
