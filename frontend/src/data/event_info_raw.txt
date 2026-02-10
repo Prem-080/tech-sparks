@@ -1,0 +1,92 @@
+Student Event Organizers:
+1. Sagar Kumar Panda (IT 3rd Year)
+2. Rachana Kondabala (IT 3rd Year)
+
+Faculty Coordinators:
+1.
+2.
+
+Technical Event Coordinators:
+o Student Coordinators:
+1. Prem Kumar Singh (IT 3rd Year)
+2. Tanvi (IT 2nd Year)
+3. Abhinay Reddy (IT 2nd Year)
+o Sub Coordinators and Volunteers:
+1.
+2.
+3.
+4.
+
+Non - Technical Event Coordinators:
+o Student Coordinators:
+1. Sahithya Koutam (IT 3rd Year)
+2. Swarish Reddy (IT 2nd Year)
+3. Bhuvana Gujjula (IT 2nd Year)
+o Sub Coordinators and Volunteers:
+1.
+2.
+3.
+4.
+
+Anchors:
+1. Dhanasri (IT 3rd Year)
+2. Manisha (IT 3rd Year)
+3. Meghana (IT 3rd Year)
+4. Nihal (IT 2nd Year)
+
+Technical Events (Brief Description)
+1. Coding Contest
+- Individual event
+- Tests basic programming logic
+- Focus on speed and accuracy
+- Languages: C, C++, Java, Python
+
+2. Web Designing
+- Individual
+- Design a webpage for a given problem statement
+- Technologies: HTML, CSS (basic JS optional)
+- No templates or frameworks
+- Emphasis on layout and design accuracy
+- Time-bound event
+
+3. Tech Quiz
+- Team of 2
+- Multiple rounds (MCQ, rapid fire, buzzer)
+- Covers core CS and current technologies
+- Tests technical knowledge and presence of mind
+- Elimination after each round
+
+4. Debugging
+- Individual event
+- Programs with logical/syntax errors
+- Languages: C / C++ / Java / Python
+- Identify and fix bugs
+- Focus on code understanding
+- Time-limited
+
+5. Reverse Engineering (Guess the Output)
+- Individual participation
+- Predict output of given code snippets
+- No compiler allowed
+- Tests logical thinking and code analysis
+- Languages: C / Java / Python
+
+6. Paper/Poster Presentation:
+- Team of 2–3
+- Present on emerging technologies (AI, IoT, Blockchain, Cyber Security, etc.)
+- PPT + oral presentation
+- Judged on content, clarity, innovation, and presentation skills
+
+Non Technical Events (Brief Description)
+12. Quiz (General Knowledge)
+13. Guess the movie
+14. challenges
+15. Squid game
+16. Twist the tale
+17. Guess the future (2035 with joke)
+18. Story in 6 frames
+
+Multiplayer Games:
+- Battlegrounds mobile India
+- Garena Free Fire
+- Scribble
