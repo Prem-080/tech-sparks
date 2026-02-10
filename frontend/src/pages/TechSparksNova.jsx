@@ -282,7 +282,7 @@ const TechSparksReloaded = () => {
           layout
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
-          <AnimatePresence mode="wait">
+          <AnimatePresence>
             {events[activeTab].map((event) => (
               <EventCard key={event.id} event={event} />
             ))}

@@ -34,32 +34,13 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '#about' },
-    { name: 'Events', href: '#events' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'About', href: '/#about' },
+    { name: 'Events', href: '/#events' },
+    { name: 'Contact', href: '/#contact' },
   ];
 
   const handleNavClick = (e, href) => {
-    if (href.startsWith('#')) {
-      e.preventDefault();
-      const targetId = href.replace('#', '');
-      
-      if (location.pathname === '/') {
-        const element = document.getElementById(targetId);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      } else {
-        navigate(`/${href}`);
-        // Allow navigation to complete then scroll in App.jsx ScrollToTop or here
-        setTimeout(() => {
-          const element = document.getElementById(targetId);
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-          }
-        }, 100);
-      }
-    }
+    // Close mobile menu
     setIsMobileMenuOpen(false);
   };
 
@@ -138,15 +119,15 @@ const Navbar = () => {
           >
             <div className="flex flex-col p-6 gap-4">
               {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  to={link.href}
-                  onClick={(e) => handleNavClick(e, link.href)}
-                  className="text-lg font-medium text-slate-600 dark:text-slate-300"
-                >
-                  {link.name}
-                </Link>
-              ))}
+            <Link
+              key={link.name}
+              to={link.href}
+              onClick={(e) => handleNavClick(e, link.href)}
+              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+            >
+              {link.name}
+            </Link>
+          ))}
             </div>
           </motion.div>
         )}

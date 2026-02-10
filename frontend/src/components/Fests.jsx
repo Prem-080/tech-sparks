@@ -13,8 +13,8 @@ const FestCard = ({ title, description, date, location, image, link }) => {
       whileHover={{ y: -10 }}
       className="group relative bg-white dark:bg-slate-800 rounded-[3rem] overflow-hidden border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl transition-all duration-500"
     >
-      <div className="aspect-[16/10] overflow-hidden relative">
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent z-10" />
+      <div className="aspect-16/10 overflow-hidden relative">
+        <div className="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent z-10" />
         <img 
           src={image || techEventImg} 
           alt={title}
@@ -60,7 +60,13 @@ const FestCard = ({ title, description, date, location, image, link }) => {
   );
 };
 
+import imageLinks from '../data/image_links.json';
+
 const Fests = () => {
+  const getFestImage = (id, fallback) => {
+    return imageLinks.fests.find(f => f.id === id)?.image || fallback;
+  };
+
   return (
     <section id="events" className="py-24 bg-slate-50 dark:bg-slate-900/50">
       <div className="container mx-auto px-6">
@@ -94,7 +100,7 @@ const Fests = () => {
             date="Coming Soon"
             location="TKREC Campus"
             link="/events/tech-sparks-nova"
-            image={techEventImg}
+            image={getFestImage('tech-sparks-nova', techEventImg)}
           />
           
           <div className="group relative bg-white/50 dark:bg-slate-800/30 rounded-[3rem] border-2 border-dashed border-slate-200 dark:border-slate-700 flex flex-col items-center justify-center p-10 text-center">

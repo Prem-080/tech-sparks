@@ -1,0 +1,67 @@
+{
+  "fests": [
+    {
+      "id": "tech-sparks-nova",
+      "title": "Tech Sparks Nova",
+      "image": "/src/assets/tech_event_img.jpg"
+    }
+  ],
+  "events": {
+    "technical": [
+      {
+        "id": "tech-1",
+        "title": "Coding Contest",
+        "image": "/img/tech-1.avif"
+      },
+      {
+        "id": "tech-2",
+        "title": "Web Designing",
+        "image": "/img/tech-2.avif"
+      },
+      {
+        "id": "tech-3",
+        "title": "Idea Pitch",
+        "image": "/img/tech-3.avif"
+      },
+      {
+        "id": "tech-4",
+        "title": "Tech Quiz",
+        "image": "/img/tech-4.avif"
+      }
+    ],
+    "nonTechnical": [
+      {
+        "id": "nontech-1",
+        "title": "Guess the Content",
+        "image": "/img/nontech-1.avif"
+      },
+      {
+        "id": "nontech-2",
+        "title": "Squid Game",
+        "image": "/img/nontech-2.avif"
+      },
+      {
+        "id": "nontech-3",
+        "title": "Board Games",
+        "image": "/img/nontech-3.jpg"
+      },
+      {
+        "id": "nontech-4",
+        "title": "Story in 6 Frames",
+        "image": "/img/nontech-4.avif"
+      }
+    ],
+    "gaming": [
+      {
+        "id": "game-1",
+        "title": "BGMI",
+        "image": "/img/game-1.avif"
+      },
+      {
+        "id": "game-2",
+        "title": "Free Fire",
+        "image": "/img/game-2.avif"
+      }
+    ]
+  }
+}
