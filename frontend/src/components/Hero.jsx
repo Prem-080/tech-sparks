@@ -27,7 +27,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wide text-indigo-600 dark:text-indigo-400 uppercase bg-indigo-100 dark:bg-indigo-900/40 rounded-full">
-            IT Department, TKREC Presents
+            IT Department, TKRC Presents
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight">
             Tech <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-violet-600 dark:from-indigo-400 dark:via-purple-400 dark:to-violet-400">
