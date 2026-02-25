@@ -4,7 +4,7 @@ import { ShieldCheck, Zap, Globe, Heart } from 'lucide-react';
 
 const AboutFeature = ({ icon: Icon, title, description }) => (
   <div className="flex gap-4 p-6 rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-700/50">
-    <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl bg-white dark:bg-slate-800 shadow-sm text-indigo-600 dark:text-indigo-400">
+    <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl bg-white dark:bg-slate-800 shadow-sm text-indigo-600 dark:text-indigo-400">
       <Icon size={24} />
     </div>
     <div>
@@ -30,7 +30,7 @@ const About = () => {
               <span className="text-indigo-600 dark:text-indigo-400">It's a Community.</span>
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
-              Tech Sparks was born from the vision of IT department students and teachers at TKREC. Join us on 6th & 7th March, 2026 for an unforgettable experience where creators, coders, and thinkers come together to share knowledge and push boundaries.
+              Tech Sparks was born from the vision of the Department of Information Technology, TKRC. Join us on 6th & 7th March, 2026 for an unforgettable experience where creators, coders, and thinkers come together to share knowledge and push boundaries.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4">

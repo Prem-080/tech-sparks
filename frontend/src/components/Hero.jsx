@@ -66,30 +66,6 @@ const Hero = () => {
               </motion.button>
             </a>
           </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto border-t border-slate-200 dark:border-slate-800 pt-12">
-            <div className="flex flex-col items-center">
-              <div className="bg-indigo-100 dark:bg-indigo-900/30 p-3 rounded-xl mb-3 text-indigo-600 dark:text-indigo-400">
-                <Rocket className="w-6 h-6" />
-              </div>
-              <span className="text-2xl font-bold dark:text-white">10+</span>
-              <span className="text-sm text-slate-500 dark:text-slate-500">Events</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-xl mb-3 text-purple-600 dark:text-purple-400">
-                <Users className="w-6 h-6" />
-              </div>
-              <span className="text-2xl font-bold dark:text-white">500+</span>
-              <span className="text-sm text-slate-500 dark:text-slate-500">Participants</span>
-            </div>
-            <div className="flex flex-col items-center col-span-2 md:col-span-1">
-              <div className="bg-violet-100 dark:bg-violet-900/30 p-3 rounded-xl mb-3 text-violet-600 dark:text-violet-400">
-                <Trophy className="w-6 h-6" />
-              </div>
-              <span className="text-2xl font-bold dark:text-white">₹50K+</span>
-              <span className="text-sm text-slate-500 dark:text-slate-500">Prize Pool</span>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>

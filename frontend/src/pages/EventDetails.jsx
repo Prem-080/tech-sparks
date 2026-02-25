@@ -24,7 +24,7 @@ const EventDetails = () => {
         <div className="text-center">
           <h2 className="text-3xl font-bold dark:text-white mb-4">Event Not Found</h2>
           <button 
-            onClick={() => navigate('/events/tech-sparks-reloaded')}
+            onClick={() => navigate('/events/tech-sparks-nova')}
             className="text-indigo-600 dark:text-indigo-400 font-bold flex items-center gap-2 mx-auto"
           >
             <ArrowLeft size={20} /> Back to Events
@@ -119,7 +119,7 @@ const EventDetails = () => {
                   </div>
                   <div>
                     <p className="text-sm text-slate-400 font-medium">Venue</p>
-                    <p className="font-bold dark:text-white">TKREC Campus</p>
+                    <p className="font-bold dark:text-white">TKRC Campus</p>
                   </div>
                 </div>
 
@@ -139,7 +139,7 @@ const EventDetails = () => {
                   </div>
                   <div>
                     <p className="text-sm text-slate-400 font-medium">Prizes</p>
-                    <p className="font-bold dark:text-white text-indigo-600 dark:text-indigo-400">Certificates & Cash</p>
+                    <p className="font-bold text-indigo-600 dark:text-indigo-400">Certificates & Cash</p>
                   </div>
                 </div>
               </div>

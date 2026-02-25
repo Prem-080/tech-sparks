@@ -1,4 +1,5 @@
 import { Sparkles, Twitter, Instagram, Linkedin, Github, Mail, MapPin, Phone } from 'lucide-react';
+import logoTkr from '../assets/logo_tkr.png';
 
 const Footer = () => {
   return (
@@ -6,25 +7,40 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="bg-indigo-600 p-2 rounded-lg">
-                <Sparkles className="w-5 h-5 text-white" />
-              </div>
+            <div className="flex items-center gap-3 mb-6">
+              <img src={logoTkr} alt="TKRC Logo" className="w-10 h-10 object-contain" />
               <span className="text-xl font-bold dark:text-white">Tech Sparks</span>
             </div>
             <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
               The official technical symposium of the IT Department, TKR College of Engineering & Technology. Empowering the next generation of innovators.
             </p>
             <div className="flex gap-4">
-              {[Twitter, Instagram, Linkedin, Github].map((Icon, idx) => (
-                <a 
-                  key={idx} 
-                  href="#" 
-                  className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 transition-all"
-                >
-                  <Icon size={20} />
-                </a>
-              ))}
+              {/* <a 
+                href="#" 
+                className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 transition-all"
+              >
+                <Twitter size={20} />
+              </a> */}
+              <a 
+                href="https://www.instagram.com/techspark__nova/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 transition-all"
+              >
+                <Instagram size={20} />
+              </a>
+              {/* <a 
+                href="#" 
+                className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 transition-all"
+              >
+                <Linkedin size={20} />
+              </a>
+              <a 
+                href="#" 
+                className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 transition-all"
+              >
+                <Github size={20} />
+              </a> */}
             </div>
           </div>
 
@@ -50,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-slate-600 dark:text-slate-400">
                 <MapPin className="text-indigo-600 shrink-0" size={20} />
-                <span>IT Dept, TKREC, Meerpet, Hyderabad</span>
+                <span>IT Dept, TKRC, Meerpet, Hyderabad</span>
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
                 <Phone className="text-indigo-600 shrink-0" size={20} />
@@ -59,7 +75,7 @@ const Footer = () => {
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
                 <Mail className="text-indigo-600 shrink-0" size={20} />
                 <span>
-techsparkreloaded@gmail.com</span>
+techsparksnova@gmail.com</span>
               </li>
             </ul>
           </div>

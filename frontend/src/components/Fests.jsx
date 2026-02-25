@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import techEventImg from '../assets/tech_event_img.jpg';
 import imageLinks from '../data/image_links.json';
+import posterNova from '../assets/poster.png';
 
 const FestCard = ({ title, description, date, location, image, link }) => {
   const navigate = useNavigate();
@@ -99,9 +100,9 @@ const Fests = () => {
             title="Tech Sparks Nova"
             description="The flagship technical symposium of the IT Department. Featuring high-stakes coding, innovative projects, and creative competitions."
             date="Coming Soon"
-            location="TKREC Campus"
+            location="TKRC Campus"
             link="/events/tech-sparks-nova"
-            image={getFestImage('tech-sparks-nova', techEventImg)}
+            image={posterNova}
           />
           
           <div className="group relative bg-white/50 dark:bg-slate-800/30 rounded-[3rem] border-2 border-dashed border-slate-200 dark:border-slate-700 flex flex-col items-center justify-center p-10 text-center">

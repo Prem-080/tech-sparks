@@ -1,7 +1,7 @@
 export const team = {
     organizers: [
-        { name: "Sagar Kumar Panda", role: "Student Event Organizer", year: "IT 3rd Year" },
-        { name: "Rachana Kondabala", role: "Student Event Organizer", year: "IT 3rd Year" }
+        { name: "Sagar Kumar Panda", role: "Student Coordinator", year: "9182211913" },
+        { name: "K. Rachana", role: "Student Coordinator", year: "8074092689" }
     ],
     facultyCoordinators: [
         { name: "Mrs. T. Madhumathi", role: "Faculty Coordinator" },

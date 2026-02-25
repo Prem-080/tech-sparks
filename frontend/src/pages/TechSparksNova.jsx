@@ -229,7 +229,7 @@ const TechSparksReloaded = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-black mb-6 dark:text-white"
           >
-            Tech Sparks <span className="text-indigo-600 dark:text-indigo-400">Reloaded</span>
+            Tech Sparks <span className="text-indigo-600 dark:text-indigo-400">Nova</span>
           </motion.h2>
           
           <motion.div 
